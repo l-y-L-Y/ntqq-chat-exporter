@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ruff_cache/
+
+# uv / build output
+uv-cache/
+build/
+dist/
+*.spec
+
+# Local QQ databases and exported conversations
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+qq导出结果/
+导出/
+chat.txt
+chat.html
+
+# Local configuration and editor files
+.env
+.vscode/
+.idea/
+
